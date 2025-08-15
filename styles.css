@@ -1,0 +1,78 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor del formulario */
+.form-container {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Título */
+.form-title {
+    text-align: center;
+    color: #242424;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+/* Etiquetas e inputs */
+.form-control {
+    margin-bottom: 20px;
+}
+
+.form-control label {
+    display: block;
+    font-weight: bold;
+    color: #242424;
+    margin-bottom: 5px;
+    font-size: 0.95rem;
+}
+
+.form-control input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto al enfocar */
+.form-control input:focus {
+    outline: none;
+    border-color: #60d0df;
+    box-shadow: 0 0 4px rgba(82, 212, 184, 0.8);
+}
+
+/* Botón */
+.btn-submit {
+    width: 100%;
+    background-color: #163983;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+/* Hover en botón */
+.btn-submit:hover {
+    background-color: #366d92;
+}
+
+/* Efecto al presionar */
+.btn-submit:active {
+    background-color: #366d92;
+}
